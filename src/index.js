@@ -46,7 +46,7 @@ app.get('/', (req, res) => {
 var typingUsers = {};
 
 io.on('connection', function(client) {
-  console.log('a user connected');
+  console.log('---------------------------> a user connected <-------------------------------');
   //Listens for a new chat message
   client.on('newChannel', function(name, description) {
     //Create channel

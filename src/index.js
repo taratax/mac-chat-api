@@ -50,7 +50,7 @@ io.on('connection', function(client) {
   //Listens for a new chat message
   client.on('newChannel', function(name, description) {
     //Create channel
-    console.log('newChannel event received..');
+    console.log('newChannel event received.. just test');
     let newChannel = new Channel({
     name: name,
     description: description,
